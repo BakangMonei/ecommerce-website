@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Web Mall</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="/Users/ryanevans/Downloads/images/icons8-shopping-cart-96.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="/Users/ryanevans/Downloads/images/cart.png" width="30px" height="30px"></a>
+            <img src="/Users/ryanevans/Downloads/images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    
+    <body id="checkout-page">
+
+        <div id="site">
+            <header id="masthead">
+                <h1></h1>
+            </header>
+            <div id="content">
+                <h1>Payment</h1>
+                    <div id="payment">
+                        <h3>Payment Info</h3>
+                        <form action="" id="card">
+                            <p>Credit Card Number</p>
+                            <input type="text" name="" id="" size="50" required>
+                                <div style="display: flex;margin-bottom: 20px;">
+                                    <div style="margin-right: 20px;">
+                                        <p>Exipration</p>
+                                    
+                                        <input type="text" size="25" required> 
+                                    </div>
+                                    <div>
+                                        <p>CVV</p>
+                                    
+                                        <input type="text" size="25" required> 
+                                    </div>
+                                </div>
+                            </div>
+                            <a href=""><input type="button" name="Save Card" id="checkout1" value="Save Card"></a> 
+                        </form>
+                        </div>
+                    </form>
+                    <div id="summary">
+                        <div id="details">
+                            <div style="margin: 20px">
+                            <p>Delivery Date</p>
+                            <input type="date" id="start" name="trip-start" value="2022-07-23"
+                            min="2022-01-23" max="2022-12-31" size="50"><br><hr>
+                            <div id="name1">
+                                <div>
+                                    <p id='r2'style="font-weight: normal;"></p>
+                                </div>
+                                <div>
+                                    <p id="r3"></p>
+                                </div>
+                            </div>
+
+                            <div id="container">
+                                <div id="leftBox">
+                                    
+                                    <div id="payment_options"><div>PAYMENT OPTIONS</div></div>
+
+                                            <div><span id="method">Payment method</span><span>(Choose any one)</span></div>
+                                        </div>
+                                        <div id="inputs">
+                                            <input type="radio" name="radio" checked="checked"><i class=""></i><span>DebitCard/CreditCard</span>
+                                            <br>
+                                            <input type="radio" name="radio"><img class="icon" src="" alt=""></span><span>PayPal</span>
+                                            <br>
+                                            <input type="radio" name="radio"><img class="icon" src="" alt=""><span>Apple Pay</span>
+                                            <br>
+                                            <input type="radio" name="radio"><img class="icon" src="" alt=""><span>Google Pay</span>
+                                            <br>
+                                            <input type="radio" name="radio"><img class="icon" src="" alt=""><span class="cod">Cash On Delivery(COD)</span>
+                                            <div id="we">We urge you to consider online payment as cash notes can be a carrier for coronavirus infection.</div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div id="buttonDiv">
+                                        <a href="thanks.html"><button id="payment-btn" class="btn4">Proceed</button></a>
+                                    </div>
+                                </div>
+                                <div id="rightBox"></div>
+                            </div>
+                        
+                 
+                 
+                 
+                 
+        <form id="paypal-form" action="" method="post">
+            <input type="hidden" name="cmd" value="_cart" />
+            <input type="hidden" name="upload" value="1" />
+            <input type="hidden" name="business" value="" />
+                
+            <input type="hidden" name="currency_code" value="" />
+        </form>
+                 
+                 
+            </div>
+            
+            
+        
+        </div>
+        
+
+        
+        </body>
+        </html>	
+
+    <!--------- footer ---------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="/Users/ryanevans/Downloads/images/play-store.png">
+                        <img src="/Users/ryanevans/Downloads/images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/Users/ryanevans/Downloads/images/icons8-shopping-cart-96.png">
+                    <p>Download App for Android and ios mobile phone.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>LinkedIn</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - BAC R&I Projects</p>
+        </div>
+    </div>
+    <!---------js for toggle menu-------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight ="0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight ="200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight ="0px";
+            }
+        }
+    </script>
+
+</body>
+</html>

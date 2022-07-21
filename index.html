@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Mall | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    <!--JS CODE-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="/Users/ryanevans/Desktop/images/icons8-shopping-cart-96.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="/Users/ryanevans/Downloads/images/cart.png" width="30px" height="30px"></a>
+                <img src="/Users/ryanevans/Downloads/images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Browse Every Section and<br>Pick Out Your Favourite!</h1>
+                    <p>In a competitive world where there are tons of wholesale products, it is<br>important to have customers who believe in your product. Shopping according to your imagination.</p>
+                    <a href="" class="btn">Explore Now &#x2192;</a>
+                </div>
+                <div class="col-2">
+                    <img src="/Users/ryanevans/Downloads/images/53982-2-grocery-png-image-high-quality.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------ featured categories ------>
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="/Users/ryanevans/Downloads/images/6001299000621.jpeg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="/Users/ryanevans/Downloads/images/mazoe-raspberry-syrup-2-litres_grande.webp" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="/Users/ryanevans/Downloads/images/81LNVBwSQmL.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------ featured products ------>
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col_4">
+                <a href="product-details.html"><img src="/Users/ryanevans/Downloads/images/6002100014004.jpeg"></a>
+                <a href="product-details.html">
+                    <h4>Parmalat Full Cream Milk</h4>
+                </a>
+                <p>P13.65</p>
+            </div>
+            <div class="col_4">
+                <img src="/Users/ryanevans/Downloads/images/silo-product-image-v2-22Nov2021-134243-6009710390146-front-1624445-3262_400Wx400H.jpeg">
+                <h4>Flora Light Fat Spread</h4>
+                <p>P31.35</p>
+            </div>
+            <div class="col_4">
+                <img src="/Users/ryanevans/Downloads/images/Clover-Classic-Smooth-Strawberry-Low-Fat-Yoghurt-Based-Dairy-Snack-1kg.jpeg">
+                <h4>Clover Classic Strawberry Low Fat Yoghurt</h4>
+                <p>P29.50</p>
+            </div>
+            <div class="col_4">
+                <img src="/Users/ryanevans/Downloads/images/0005002_snowflake-classic-pancake-easy-mix-500g_540.jpeg">
+                <h4>SnowFlake Easy Mix Pancake Mix</h4>
+                <p>P16.65</p>
+            </div>
+        </div>
+        <!------ featured products ------>
+        <div class="small-container">
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col_4">
+                    <img src="/Users/ryanevans/Downloads/images/knorr-aromat-original-seasoning-75-gm-8839.jpeg">
+                    <h4>Knorr Aromat Original</h4>
+                    <p>P9.50</p>
+                </div>
+                <div class="col_4">
+                    <img src="/Users/ryanevans/Downloads/images/lays-potato-chips-regular-800x800.png">
+                    <h4>Lays Potato Chips</h4>
+                    <p>P4.95</p>
+                </div>
+                <div class="col_4">
+                    <img src="/Users/ryanevans/Downloads/images/Texan-corned-beef-.jpeg">
+                    <h4>Texan Corned Beef</h4>
+                    <p>P15.95</p>
+                </div>
+                <div class="col_4">
+                    <img src="/Users/ryanevans/Downloads/images/Koo-baked-beans.jpeg">
+                    <h4>SnowFlake Easy Mix Pancake Mix</h4>
+                    <p>P16.65</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------ featured products ------>
+    <div class="small-container">
+        <div class="row">
+            <div class="col_4">
+                <img src="/Users/ryanevans/Downloads/images/KNORR-SOUP-BEEF-MINESTRONE-HERBS-50g.jpeg">
+                <h4>Knorr Minestrone Soup</h4>
+                <p>P2.85</p>
+            </div>
+            <div class="col_4">
+                <img src="/Users/ryanevans/Downloads/images/CB_Tangy_Mayonnaise.jpeg">
+                <h4>C&B Tangy Mayonnaise</h4>
+                <p>P25.35</p>
+            </div>
+            <div class="col_4">
+                <img src="/Users/ryanevans/Downloads/images/TASTIC-RICE-2kg.jpeg">
+                <h4>Tastic Rice</h4>
+                <p>P21.50</p>
+            </div>
+            <div class="col_4">
+                <img src="/Users/ryanevans/Downloads/images/Koo-baked-beans.jpeg">
+                <h4>Koo Baked Beans</h4>
+                <p>P9.65</p>
+            </div>
+        </div>
+
+    </div>
+    <!----- offer ----->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="/Users/ryanevans/Downloads/images/snackpack.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Web Mall</p>
+                    <h1>EET-SUM-MOR</h1>
+                    <small>The Bakers Top Selling Biscuits Have Introduced a 
+                    Fresh and Brand New Snack Pack Range. 
+                    Same Original Taste, New Look!
+                </small>
+                    <a href="" class="btn">Buy Now &#x2192;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------- testimonial -------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <p>Lorem ipsum dummy text that was taken from the internet online to support this area and include text as if there is any text to read.</p>
+                    <img src="/Users/ryanevans/Downloads/images/user-1.png">
+                    <h3>Jenny Smith</h3>
+                </div>
+                <div class="col-3">
+                    <p>Lorem ipsum dummy text that was taken from the internet online to support this area and include text as if there is any text to read.</p>
+                    <img src="/Users/ryanevans/Downloads/images/user-3.png">
+                    <h3>Mariah Parker</h3>
+                </div>
+                <div class="col-3">
+                    <p>Lorem ipsum dummy text that was taken from the internet online to support this area and include text as if there is any text to read.</p>
+                    <img src="/Users/ryanevans/Downloads/images/user-2.png">
+                    <h3>James Greenwood</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------- brands ----------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="/Users/ryanevans/Downloads/images/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="/Users/ryanevans/Downloads/images/logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="/Users/ryanevans/Downloads/images/logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="/Users/ryanevans/Downloads/images/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="/Users/ryanevans/Downloads/images/logo-philips.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------- footer ---------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="/Users/ryanevans/Desktop/images/play-store.png">
+                        <img src="/Users/ryanevans/Downloads/images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/Users/ryanevans/Downloads/images/icons8-shopping-cart-96.png">
+                    <p>Download App for Android and ios mobile phone.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>LinkedIn</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - BAC R&I Projects</p>
+        </div>
+    </div>
+    <!---------js for toggle menu-------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js">
+    </script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "Use Your Api Key Here",
+            authDomain: "Use Your authDomain Here",
+            databaseURL: "Use Your databaseURL Here",
+            projectId: "Use Your projectId Here",
+            storageBucket: "Use Your storageBucket Here",
+            messagingSenderId: "Use Your messagingSenderId Here",
+            appId: "Use Your appId Here"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+
+        var messagesRef = firebase.database()
+            .ref('Collected Data');
+
+        document.getElementById('contactForm')
+            .addEventListener('submit', submitForm);
+
+        function submitForm(e) {
+            e.preventDefault();
+
+            // Get values
+            var name = getInputVal('name');
+            var email = getInputVal('email');
+
+            saveMessage(name, email);
+            document.getElementById('contactForm').reset();
+        }
+
+        // Function to get get form values
+        function getInputVal(id) {
+            return document.getElementById(id).value;
+        }
+
+        // Save message to firebase
+        function saveMessage(name, email) {
+            var newMessageRef = messagesRef.push();
+            newMessageRef.set({
+                name: name,
+                email: email,
+            });
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
